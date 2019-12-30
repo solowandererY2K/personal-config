@@ -1,0 +1,5 @@
+[user]
+	email = jeff.booth@outlook.com
+	name = Jeff Booth
+[core]
+	excludesfile = ~/.gitignore_global

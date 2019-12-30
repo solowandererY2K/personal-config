@@ -1,0 +1,45 @@
+# Git Ignore file for Jeff Booth's usual stuff.
+
+# MicrosoftOffice.gitignore from https://github.com/github/gitignore/blob/master/Global/MicrosoftOffice.gitignore
+# Used under the Creative Commons Zero v1.0 Universal license.
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
+# Vim.gitignore from https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+# Used under the Creative Commons Zero v1.0 Universal license.
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
