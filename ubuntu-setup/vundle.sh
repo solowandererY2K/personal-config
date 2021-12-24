@@ -4,14 +4,14 @@
 VUNDLE_DIR=~/.vim/bundle/Vundle.vim
 if [ ! -d "$VUNDLE_DIR" ]
 then
-  which git
+  which git > /dev/null 2>&1
   if [ $? -ne 0 ]
   then
     echo You need to install Git and put it on your system path.
     exit 1
   fi
 
-  which vim
+  which vim > /dev/null 2>&1
   if [ $? -ne 0 ]
   then
     echo You need to install Vim and put it on your system path.

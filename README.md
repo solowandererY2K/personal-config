@@ -6,9 +6,23 @@ settings on my various computers.
 
 No, it does not contain my passwords or other private information.
 
-## Directions for Setup
+## Getting Started
 
-On a Windows system, run the ``setup.cmd`` script as an administrator.
+### Linux
+
+Open your Terminal, then cd into this personal-config directory and
+run this command:
+
+```bash
+./setup.sh
+```
+
+Note: this command can be run as many times as needed. If things are
+already installed, it won't do anything.
+
+### Windows
+
+Run the ``setup.cmd`` script as an administrator.
 
 Then, apply these settings:
 

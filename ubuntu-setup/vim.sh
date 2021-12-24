@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-which vim
+which vim > /dev/null 2>&1
 if [ $? -eq 0 ]
 then
   echo Vim already installed.
@@ -13,7 +13,7 @@ then
   exit 1
 fi
 
-which vim
+which vim > /dev/null 2>&1
 if [ $? -eq 0 ]
 then
   echo Could not find Vim after install.
